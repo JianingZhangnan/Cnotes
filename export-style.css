@@ -1,0 +1,10 @@
+.sidebar-content, 
+.document-container > .markdown-preview-view{
+    background-color: rgba(135, 134, 132, 0.1) !important;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+}
+
+.sidebar-content {
+  border: none !important;
+}

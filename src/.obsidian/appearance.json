@@ -1,0 +1,10 @@
+{
+  "accentColor": "#6a57ff",
+  "interfaceFontFamily": "LXGW WenKai Mono,Safari",
+  "baseFontSizeAction": true,
+  "baseFontSize": 23,
+  "cssTheme": "Zen",
+  "theme": "obsidian",
+  "textFontFamily": "LXGW WenKai Mono,Safari",
+  "monospaceFontFamily": "Cascadia Code"
+}

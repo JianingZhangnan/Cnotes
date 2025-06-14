@@ -1,0 +1,19 @@
+{
+  "shiba-theme-settings@@shiba-colors-theme-light": "stone-light",
+  "shiba-theme-settings@@shiba-colors-theme-dark": "Lilac-dark",
+  "shiba-theme-settings@@shiba-accent-colors": "accent-lily",
+  "zen@@editor-brightness": 1.42,
+  "zen@@close-left-vault-profile": true,
+  "royal-velvet@@inline-document-title-color": "doc-title-rainbow",
+  "shiba-theme-settings@@shib-transparent-setting-panel": false,
+  "shiba-theme-settings@@translucent-pane-style-settings": "shib-setting-default-frosted-glass",
+  "shiba-theme-settings@@h1-font": "Satoshi",
+  "shiba-theme-settings@@text-normal@@light": "#060000F5",
+  "shiba-theme-settings@@shib-table-thickness": 3,
+  "shiba-theme-settings@@shib-th-highlight": true,
+  "shiba-theme-settings@@shib-table-auto": true,
+  "zen@@win-translucent-off": false,
+  "zen@@win-window-brightness": 0.9,
+  "zen@@win-window-opacity": 0.23,
+  "zen@@win-bg-image-url": "url('https://my-markdown-pict.oss-cn-nanjing.aliyuncs.com/img/%E8%83%8C%E6%99%AF1.png')"
+}
