@@ -1,0 +1,61 @@
+/* --- 推荐的最终代码 --- */
+
+/* 浅色模式背景 */
+body.theme-light {
+  /* 替换成你的浅色模式背景图片 URL */
+  background-image: url('https://my-markdown-pict.oss-cn-nanjing.aliyuncs.com/img/beijing44.png') !important; 
+}
+
+/* 深色模式背景 */
+body.theme-dark {
+  /* 替换成你的深色模式背景图片 URL */
+  background-image: url('https://my-markdown-pict.oss-cn-nanjing.aliyuncs.com/img/beijing5.png') !important;
+}
+
+/* 通用背景样式 */
+body {
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  transition: background-image 0.5s ease-in-out;
+}
+
+
+/* 
+================================================
+保留你之前的半透明效果设置
+================================================
+*/
+.sidebar-content, 
+.document-container > .markdown-preview-view{
+    background-color: rgba(156, 155, 152, 0.314) !important;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+}
+
+.sidebar-content {
+  border: none !important;
+}
+
+/*
+  ================================================
+  自定义浅色模式下 H4-H6 标题颜色
+  ================================================
+*/
+
+/* 仅在浅色模式下生效 */
+body.theme-light h4,
+body.theme-light .cm-header-4 { /* .cm-header-4 用于兼容编辑器模式下的标题颜色 */
+    color: rgb(16, 103, 78) !important;
+}
+
+body.theme-light h5,
+body.theme-light .cm-header-5 {
+    color: rgb(8, 71, 110) !important;
+}
+
+body.theme-light h6,
+body.theme-light .cm-header-6 {
+    color: rgb(2, 22, 57) !important;
+}

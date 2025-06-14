@@ -5,7 +5,7 @@
   "includePluginCSS": "",
   "includeSvelteCSS": true,
   "titleProperty": "title",
-  "customHeadContentPath": "D:\\\\learning\\理科notes\\head.html",
+  "customHeadContentPath": "D:\\\\learning\\理科notes\\src\\head.html",
   "faviconPath": "",
   "documentWidth": "40em",
   "sidebarWidth": "20em",
