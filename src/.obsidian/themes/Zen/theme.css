@@ -3203,3 +3203,26 @@ body:not(.is-mobile) .mod-root .workspace-tab-header-container-inner {
 .modal-content .vertical-tab-content-container .vertical-tab-content {
 	background-color: transparent;
 }
+
+/* 调整数学公式大小 */
+.markdown-rendered .math-block,
+.markdown-rendered .math-inline,
+.markdown-source-view .math-block,
+.markdown-source-view .math-inline {
+  font-size: 1.15em;
+}
+
+/* 调整数学公式颜色 */
+.theme-dark .markdown-rendered .math-block,
+.theme-dark .markdown-rendered .math-inline,
+.theme-dark .markdown-source-view .math-block,
+.theme-dark .markdown-source-view .math-inline {
+  color: #f0f0bf; /* 淡黄色 */
+}
+
+.theme-light .markdown-rendered .math-block,
+.theme-light .markdown-rendered .math-inline,
+.theme-light .markdown-source-view .math-block,
+.theme-light .markdown-source-view .math-inline {
+  color: #8A2BE2; /* 深紫色 */
+}
