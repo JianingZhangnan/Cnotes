@@ -1,11 +1,13 @@
 {
   "vaultName": "人文社科读书笔记",
-  "lastExport": 1750154577610,
+  "lastExport": 1750267889224,
   "pluginVersion": "1.8.01",
-  "validBodyClasses": "publish css-settings-manager show-inline-title show-ribbon theme-dark",
+  "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon",
   "useCustomHeadContent": true,
   "useCustomFavicon": false,
   "files": [
+    "_assets/gaussian-chart.html",
+    "_assets/test.html",
     "电磁学作业/第八章.md",
     "电磁学作业/第九章.md",
     "电磁学作业/第六章.md",
@@ -103,339 +105,351 @@
   ],
   "fileInfo": {
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1750154577610,
+      "modifiedTime": 1750267889224,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1750154577610,
+      "modifiedTime": 1750267889224,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1750154577610,
+      "modifiedTime": 1750267889224,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1750154577610,
+      "modifiedTime": 1750267889224,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1750154577610,
+      "modifiedTime": 1750267889224,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1750154577610,
+      "modifiedTime": 1750267889224,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1750154577610,
+      "modifiedTime": 1750267889224,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1750154577610,
+      "modifiedTime": 1750267889224,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1750154577610,
+      "modifiedTime": 1750267889224,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1750154577610,
+      "modifiedTime": 1750267889224,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1750154577610,
+      "modifiedTime": 1750267889224,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1750154577610,
+      "modifiedTime": 1750267889224,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1750154577610,
+      "modifiedTime": 1750267889224,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/6155340132a851f6089e.svg": {
-      "modifiedTime": 1750154577610,
+      "modifiedTime": 1750267889224,
       "sourceSize": 315,
       "exportedPath": "lib/media/6155340132a851f6089e.svg",
       "dependencies": []
     },
     "lib/fonts/MathJax_Zero.woff": {
-      "modifiedTime": 1750154577610,
+      "modifiedTime": 1750267889224,
       "sourceSize": 1368,
       "exportedPath": "lib/fonts/MathJax_Zero.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Main-Regular.woff": {
-      "modifiedTime": 1750154577610,
+      "modifiedTime": 1750267889224,
       "sourceSize": 34160,
       "exportedPath": "lib/fonts/MathJax_Main-Regular.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Main-Bold.woff": {
-      "modifiedTime": 1750154577610,
+      "modifiedTime": 1750267889224,
       "sourceSize": 34464,
       "exportedPath": "lib/fonts/MathJax_Main-Bold.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Math-Italic.woff": {
-      "modifiedTime": 1750154577610,
+      "modifiedTime": 1750267889224,
       "sourceSize": 19360,
       "exportedPath": "lib/fonts/MathJax_Math-Italic.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Main-Italic.woff": {
-      "modifiedTime": 1750154577610,
+      "modifiedTime": 1750267889224,
       "sourceSize": 20832,
       "exportedPath": "lib/fonts/MathJax_Main-Italic.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Math-BoldItalic.woff": {
-      "modifiedTime": 1750154577610,
+      "modifiedTime": 1750267889224,
       "sourceSize": 19776,
       "exportedPath": "lib/fonts/MathJax_Math-BoldItalic.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Size1-Regular.woff": {
-      "modifiedTime": 1750154577610,
+      "modifiedTime": 1750267889224,
       "sourceSize": 5792,
       "exportedPath": "lib/fonts/MathJax_Size1-Regular.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Size2-Regular.woff": {
-      "modifiedTime": 1750154577610,
+      "modifiedTime": 1750267889224,
       "sourceSize": 5464,
       "exportedPath": "lib/fonts/MathJax_Size2-Regular.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Size3-Regular.woff": {
-      "modifiedTime": 1750154577610,
+      "modifiedTime": 1750267889224,
       "sourceSize": 3244,
       "exportedPath": "lib/fonts/MathJax_Size3-Regular.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Size4-Regular.woff": {
-      "modifiedTime": 1750154577610,
+      "modifiedTime": 1750267889224,
       "sourceSize": 5148,
       "exportedPath": "lib/fonts/MathJax_Size4-Regular.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_AMS-Regular.woff": {
-      "modifiedTime": 1750154577610,
+      "modifiedTime": 1750267889224,
       "sourceSize": 40808,
       "exportedPath": "lib/fonts/MathJax_AMS-Regular.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Calligraphic-Regular.woff": {
-      "modifiedTime": 1750154577610,
+      "modifiedTime": 1750267889224,
       "sourceSize": 9600,
       "exportedPath": "lib/fonts/MathJax_Calligraphic-Regular.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Calligraphic-Bold.woff": {
-      "modifiedTime": 1750154577610,
+      "modifiedTime": 1750267889224,
       "sourceSize": 9908,
       "exportedPath": "lib/fonts/MathJax_Calligraphic-Bold.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Fraktur-Regular.woff": {
-      "modifiedTime": 1750154577610,
+      "modifiedTime": 1750267889224,
       "sourceSize": 21480,
       "exportedPath": "lib/fonts/MathJax_Fraktur-Regular.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Fraktur-Bold.woff": {
-      "modifiedTime": 1750154577610,
+      "modifiedTime": 1750267889224,
       "sourceSize": 22340,
       "exportedPath": "lib/fonts/MathJax_Fraktur-Bold.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_SansSerif-Regular.woff": {
-      "modifiedTime": 1750154577610,
+      "modifiedTime": 1750267889224,
       "sourceSize": 12660,
       "exportedPath": "lib/fonts/MathJax_SansSerif-Regular.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_SansSerif-Bold.woff": {
-      "modifiedTime": 1750154577610,
+      "modifiedTime": 1750267889224,
       "sourceSize": 15944,
       "exportedPath": "lib/fonts/MathJax_SansSerif-Bold.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_SansSerif-Italic.woff": {
-      "modifiedTime": 1750154577610,
+      "modifiedTime": 1750267889224,
       "sourceSize": 14628,
       "exportedPath": "lib/fonts/MathJax_SansSerif-Italic.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Script-Regular.woff": {
-      "modifiedTime": 1750154577610,
+      "modifiedTime": 1750267889224,
       "sourceSize": 11852,
       "exportedPath": "lib/fonts/MathJax_Script-Regular.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Typewriter-Regular.woff": {
-      "modifiedTime": 1750154577610,
+      "modifiedTime": 1750267889224,
       "sourceSize": 17604,
       "exportedPath": "lib/fonts/MathJax_Typewriter-Regular.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Vector-Regular.woff": {
-      "modifiedTime": 1750154577610,
+      "modifiedTime": 1750267889224,
       "sourceSize": 1136,
       "exportedPath": "lib/fonts/MathJax_Vector-Regular.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Vector-Bold.woff": {
-      "modifiedTime": 1750154577610,
+      "modifiedTime": 1750267889224,
       "sourceSize": 1116,
       "exportedPath": "lib/fonts/MathJax_Vector-Bold.woff",
       "dependencies": []
     },
     "背景1.png": {
-      "modifiedTime": 1750154577610,
+      "modifiedTime": 1750267889224,
       "sourceSize": 1102884,
       "exportedPath": "背景1.png",
       "dependencies": []
     },
     "export-style.css": {
-      "modifiedTime": 1750154577610,
+      "modifiedTime": 1750267889224,
       "sourceSize": 1661,
       "exportedPath": "export-style.css",
       "dependencies": []
     },
     "head.html": {
-      "modifiedTime": 1750154577610,
+      "modifiedTime": 1750267889224,
       "sourceSize": 703,
       "exportedPath": "head.html",
       "dependencies": []
     },
     "EM-Griffith/Before We Start.md": {
-      "modifiedTime": 1750154577610,
+      "modifiedTime": 1750267889224,
       "sourceSize": 9,
       "exportedPath": "EM-Griffith/Before We Start.html",
       "dependencies": []
     },
     "Probability Theory The Logic of Science/Before We Start.md": {
-      "modifiedTime": 1750154577610,
+      "modifiedTime": 1750267889224,
       "sourceSize": 9,
       "exportedPath": "Probability Theory The Logic of Science/Before We Start.html",
       "dependencies": []
     },
     "QM-Griffith/Before We Start.md": {
-      "modifiedTime": 1750154577610,
+      "modifiedTime": 1750267889224,
       "sourceSize": 52,
       "exportedPath": "QM-Griffith/Before We Start.html",
       "dependencies": []
     },
     "SM-David_Chandler/Before We Start.md": {
-      "modifiedTime": 1750154577610,
+      "modifiedTime": 1750267889224,
       "sourceSize": 9,
       "exportedPath": "SM-David_Chandler/Before We Start.html",
       "dependencies": []
     },
     "CM/Before We Start.md": {
-      "modifiedTime": 1750154577610,
+      "modifiedTime": 1750267889224,
       "sourceSize": 9,
       "exportedPath": "CM/Before We Start.html",
       "dependencies": []
     },
     "电磁学作业/第八章.md": {
-      "modifiedTime": 1750154577610,
+      "modifiedTime": 1750267889224,
       "sourceSize": 10231,
       "exportedPath": "电磁学作业/第八章.html",
       "dependencies": []
     },
     "电磁学作业/第九章.md": {
-      "modifiedTime": 1750154577610,
+      "modifiedTime": 1750267889224,
       "sourceSize": 5004,
       "exportedPath": "电磁学作业/第九章.html",
       "dependencies": []
     },
     "电磁学作业/第六章.md": {
-      "modifiedTime": 1750154577610,
+      "modifiedTime": 1750267889224,
       "sourceSize": 6660,
       "exportedPath": "电磁学作业/第六章.html",
       "dependencies": []
     },
     "电磁学作业/第七章.md": {
-      "modifiedTime": 1750154577610,
+      "modifiedTime": 1750267889224,
       "sourceSize": 4633,
       "exportedPath": "电磁学作业/第七章.html",
       "dependencies": []
     },
     "电磁学作业/第三章.md": {
-      "modifiedTime": 1750154577610,
+      "modifiedTime": 1750267889224,
       "sourceSize": 14324,
       "exportedPath": "电磁学作业/第三章.html",
       "dependencies": []
     },
     "电磁学作业/第四章.md": {
-      "modifiedTime": 1750154577610,
+      "modifiedTime": 1750267889224,
       "sourceSize": 11239,
       "exportedPath": "电磁学作业/第四章.html",
       "dependencies": []
     },
     "电磁学作业/第五章.md": {
-      "modifiedTime": 1750154577610,
+      "modifiedTime": 1750267889224,
       "sourceSize": 13457,
       "exportedPath": "电磁学作业/第五章.html",
       "dependencies": []
     },
     "电磁学作业/目录.md": {
-      "modifiedTime": 1750154577610,
+      "modifiedTime": 1750267889224,
       "sourceSize": 111,
       "exportedPath": "电磁学作业/目录.html",
       "dependencies": []
     },
     "QM-Griffith/教材阅读笔记/第二章/定态.md": {
-      "modifiedTime": 1750154577610,
+      "modifiedTime": 1750267889224,
       "sourceSize": 43,
       "exportedPath": "QM-Griffith/教材阅读笔记/第二章/定态.html",
       "dependencies": []
     },
     "QM-Griffith/教材阅读笔记/第一章 波函数.md": {
-      "modifiedTime": 1750154577610,
-      "sourceSize": 10162,
+      "modifiedTime": 1750267889224,
+      "sourceSize": 11758,
       "exportedPath": "QM-Griffith/教材阅读笔记/第一章 波函数.html",
       "dependencies": []
     },
     "QM-Griffith/习题解答/第一章.md": {
-      "modifiedTime": 1750154577610,
-      "sourceSize": 9233,
+      "modifiedTime": 1750267889224,
+      "sourceSize": 3949,
       "exportedPath": "QM-Griffith/习题解答/第一章.html",
       "dependencies": []
     },
     "QM-Griffith/未命名.md": {
-      "modifiedTime": 1750154577610,
+      "modifiedTime": 1750267889224,
       "sourceSize": 0,
       "exportedPath": "QM-Griffith/未命名.html",
+      "dependencies": []
+    },
+    "_assets/gaussian-chart.html": {
+      "modifiedTime": 1750267889224,
+      "sourceSize": 8728,
+      "exportedPath": "_assets/gaussian-chart.html",
+      "dependencies": []
+    },
+    "_assets/test.html": {
+      "modifiedTime": 1750267889224,
+      "sourceSize": 527,
+      "exportedPath": "_assets/test.html",
       "dependencies": []
     }
   }

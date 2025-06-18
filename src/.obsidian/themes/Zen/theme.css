@@ -685,6 +685,248 @@ body.is-mobile .nav-file-title {
 .tree-item-inner-text {
 	font-size: calc(var(--window-font-size) * 1px) !important;
 	color: var(--tree-item-color);
+	font-weight: bold !important;
+}
+
+/* 侧边栏第一级文件夹彩虹布局颜色 */
+/* 第一级文件夹颜色和背景 */
+.nav-files-container .tree-item.nav-folder:nth-of-type(6n+1) .nav-folder-title,
+.nav-files-container .tree-item.nav-folder:nth-child(6n+1) .nav-folder-title {
+	color: var(--h1-color) !important; /* 红色 */
+	background: rgba(255, 39, 32, 0.15) !important;
+	backdrop-filter: blur(10px);
+	border-radius: var(--radius-m);
+	margin: 2px 0;
+}
+
+.nav-files-container .tree-item.nav-folder:nth-of-type(6n+2) .nav-folder-title,
+.nav-files-container .tree-item.nav-folder:nth-child(6n+2) .nav-folder-title {
+	color: #ff9500 !important; /* 橙色 */
+	background: rgba(255, 149, 0, 0.15) !important;
+	backdrop-filter: blur(10px);
+	border-radius: var(--radius-m);
+	margin: 2px 0;
+}
+
+.nav-files-container .tree-item.nav-folder:nth-of-type(6n+3) .nav-folder-title,
+.nav-files-container .tree-item.nav-folder:nth-child(6n+3) .nav-folder-title {
+	color: #ffeb3b !important; /* 黄色 */
+	background: rgba(255, 235, 59, 0.15) !important;
+	backdrop-filter: blur(10px);
+	border-radius: var(--radius-m);
+	margin: 2px 0;
+}
+
+.nav-files-container .tree-item.nav-folder:nth-of-type(6n+4) .nav-folder-title,
+.nav-files-container .tree-item.nav-folder:nth-child(6n+4) .nav-folder-title {
+	color: var(--h4-color) !important; /* 绿色 */
+	background: rgba(15, 235, 158, 0.15) !important;
+	backdrop-filter: blur(10px);
+	border-radius: var(--radius-m);
+	margin: 2px 0;
+}
+
+.nav-files-container .tree-item.nav-folder:nth-of-type(6n+5) .nav-folder-title,
+.nav-files-container .tree-item.nav-folder:nth-child(6n+5) .nav-folder-title {
+	color: var(--h3-color) !important; /* 蓝色 */
+	background: rgba(7, 126, 246, 0.15) !important;
+	backdrop-filter: blur(10px);
+	border-radius: var(--radius-m);
+	margin: 2px 0;
+}
+
+.nav-files-container .tree-item.nav-folder:nth-of-type(6n+6) .nav-folder-title,
+.nav-files-container .tree-item.nav-folder:nth-child(6n+6) .nav-folder-title {
+	color: var(--h2-color) !important; /* 紫色 */
+	background: rgba(200, 50, 255, 0.15) !important;
+	backdrop-filter: blur(10px);
+	border-radius: var(--radius-m);
+	margin: 2px 0;
+}
+
+/* 第一个第一级文件夹下的所有子项目 - 红色背景白色文字 */
+.nav-files-container .tree-item.nav-folder:nth-of-type(6n+1) .nav-folder-children .nav-file-title,
+.nav-files-container .tree-item.nav-folder:nth-of-type(6n+1) .nav-folder-children .nav-folder-title,
+.nav-files-container .tree-item.nav-folder:nth-of-type(6n+1) .nav-folder-children .tree-item-inner,
+.nav-files-container .tree-item.nav-folder:nth-child(6n+1) .nav-folder-children .nav-file-title,
+.nav-files-container .tree-item.nav-folder:nth-child(6n+1) .nav-folder-children .nav-folder-title,
+.nav-files-container .tree-item.nav-folder:nth-child(6n+1) .nav-folder-children .tree-item-inner {
+	color: var(--text-normal) !important;
+	background: rgba(255, 39, 32, 0.1) !important;
+	backdrop-filter: blur(8px);
+	border-radius: var(--radius-s);
+	margin: 1px 0;
+}
+
+/* 第二个第一级文件夹下的所有子项目 - 橙色背景白色文字 */
+.nav-files-container .tree-item.nav-folder:nth-of-type(6n+2) .nav-folder-children .nav-file-title,
+.nav-files-container .tree-item.nav-folder:nth-of-type(6n+2) .nav-folder-children .nav-folder-title,
+.nav-files-container .tree-item.nav-folder:nth-of-type(6n+2) .nav-folder-children .tree-item-inner,
+.nav-files-container .tree-item.nav-folder:nth-child(6n+2) .nav-folder-children .nav-file-title,
+.nav-files-container .tree-item.nav-folder:nth-child(6n+2) .nav-folder-children .nav-folder-title,
+.nav-files-container .tree-item.nav-folder:nth-child(6n+2) .nav-folder-children .tree-item-inner {
+	color: var(--text-normal) !important;
+	background: rgba(255, 149, 0, 0.1) !important;
+	backdrop-filter: blur(8px);
+	border-radius: var(--radius-s);
+	margin: 1px 0;
+}
+
+/* 第三个第一级文件夹下的所有子项目 - 黄色背景白色文字 */
+.nav-files-container .tree-item.nav-folder:nth-of-type(6n+3) .nav-folder-children .nav-file-title,
+.nav-files-container .tree-item.nav-folder:nth-of-type(6n+3) .nav-folder-children .nav-folder-title,
+.nav-files-container .tree-item.nav-folder:nth-of-type(6n+3) .nav-folder-children .tree-item-inner,
+.nav-files-container .tree-item.nav-folder:nth-child(6n+3) .nav-folder-children .nav-file-title,
+.nav-files-container .tree-item.nav-folder:nth-child(6n+3) .nav-folder-children .nav-folder-title,
+.nav-files-container .tree-item.nav-folder:nth-child(6n+3) .nav-folder-children .tree-item-inner {
+	color: var(--text-normal) !important;
+	background: rgba(255, 235, 59, 0.1) !important;
+	backdrop-filter: blur(8px);
+	border-radius: var(--radius-s);
+	margin: 1px 0;
+}
+
+/* 第四个第一级文件夹下的所有子项目 - 绿色背景白色文字 */
+.nav-files-container .tree-item.nav-folder:nth-of-type(6n+4) .nav-folder-children .nav-file-title,
+.nav-files-container .tree-item.nav-folder:nth-of-type(6n+4) .nav-folder-children .nav-folder-title,
+.nav-files-container .tree-item.nav-folder:nth-of-type(6n+4) .nav-folder-children .tree-item-inner,
+.nav-files-container .tree-item.nav-folder:nth-child(6n+4) .nav-folder-children .nav-file-title,
+.nav-files-container .tree-item.nav-folder:nth-child(6n+4) .nav-folder-children .nav-folder-title,
+.nav-files-container .tree-item.nav-folder:nth-child(6n+4) .nav-folder-children .tree-item-inner {
+	color: var(--text-normal) !important;
+	background: rgba(15, 235, 158, 0.1) !important;
+	backdrop-filter: blur(8px);
+	border-radius: var(--radius-s);
+	margin: 1px 0;
+}
+
+/* 第五个第一级文件夹下的所有子项目 - 蓝色背景白色文字 */
+.nav-files-container .tree-item.nav-folder:nth-of-type(6n+5) .nav-folder-children .nav-file-title,
+.nav-files-container .tree-item.nav-folder:nth-of-type(6n+5) .nav-folder-children .nav-folder-title,
+.nav-files-container .tree-item.nav-folder:nth-of-type(6n+5) .nav-folder-children .tree-item-inner,
+.nav-files-container .tree-item.nav-folder:nth-child(6n+5) .nav-folder-children .nav-file-title,
+.nav-files-container .tree-item.nav-folder:nth-child(6n+5) .nav-folder-children .nav-folder-title,
+.nav-files-container .tree-item.nav-folder:nth-child(6n+5) .nav-folder-children .tree-item-inner {
+	color: var(--text-normal) !important;
+	background: rgba(7, 126, 246, 0.1) !important;
+	backdrop-filter: blur(8px);
+	border-radius: var(--radius-s);
+	margin: 1px 0;
+}
+
+/* 第六个第一级文件夹下的所有子项目 - 紫色背景白色文字 */
+.nav-files-container .tree-item.nav-folder:nth-of-type(6n+6) .nav-folder-children .nav-file-title,
+.nav-files-container .tree-item.nav-folder:nth-of-type(6n+6) .nav-folder-children .nav-folder-title,
+.nav-files-container .tree-item.nav-folder:nth-of-type(6n+6) .nav-folder-children .tree-item-inner,
+.nav-files-container .tree-item.nav-folder:nth-child(6n+6) .nav-folder-children .nav-file-title,
+.nav-files-container .tree-item.nav-folder:nth-child(6n+6) .nav-folder-children .nav-folder-title,
+.nav-files-container .tree-item.nav-folder:nth-child(6n+6) .nav-folder-children .tree-item-inner {
+	color: var(--text-normal) !important;
+	background: rgba(200, 50, 255, 0.1) !important;
+	backdrop-filter: blur(8px);
+	border-radius: var(--radius-s);
+	margin: 1px 0;
+}
+
+/* 根目录下的直接文件 - 不设置特殊颜色 */
+
+/* 大纲栏彩虹颜色 */
+.workspace-leaf-content[data-type='outline'] .tree-item-self:nth-child(6n+1) .tree-item-inner {
+	color: var(--h1-color) !important;
+}
+
+.workspace-leaf-content[data-type='outline'] .tree-item-self:nth-child(6n+2) .tree-item-inner {
+	color: #ff9500 !important;
+}
+
+.workspace-leaf-content[data-type='outline'] .tree-item-self:nth-child(6n+3) .tree-item-inner {
+	color: #ffeb3b !important;
+}
+
+.workspace-leaf-content[data-type='outline'] .tree-item-self:nth-child(6n+4) .tree-item-inner {
+	color: var(--h4-color) !important;
+}
+
+.workspace-leaf-content[data-type='outline'] .tree-item-self:nth-child(6n+5) .tree-item-inner {
+	color: var(--h3-color) !important;
+}
+
+.workspace-leaf-content[data-type='outline'] .tree-item-self:nth-child(6n+6) .tree-item-inner {
+	color: var(--h2-color) !important;
+}
+
+/* 标签面板彩虹颜色 */
+.tag-pane-tag:nth-child(6n+1) .tag-pane-tag-text {
+	color: var(--h1-color) !important;
+}
+
+.tag-pane-tag:nth-child(6n+2) .tag-pane-tag-text {
+	color: #ff9500 !important;
+}
+
+.tag-pane-tag:nth-child(6n+3) .tag-pane-tag-text {
+	color: #ffeb3b !important;
+}
+
+.tag-pane-tag:nth-child(6n+4) .tag-pane-tag-text {
+	color: var(--h4-color) !important;
+}
+
+.tag-pane-tag:nth-child(6n+5) .tag-pane-tag-text {
+	color: var(--h3-color) !important;
+}
+
+.tag-pane-tag:nth-child(6n+6) .tag-pane-tag-text {
+	color: var(--h2-color) !important;
+}
+
+/* 备用选择器 - 简化的第一级文件夹颜色 */
+.nav-files-container .nav-folder:nth-child(1) .nav-folder-title {
+	color: var(--h1-color) !important; /* 红色 */
+	background: rgba(255, 39, 32, 0.15) !important;
+	backdrop-filter: blur(10px);
+	border-radius: var(--radius-m);
+	margin: 2px 0;
+}
+
+.nav-files-container .nav-folder:nth-child(2) .nav-folder-title {
+	color: #ff9500 !important; /* 橙色 */
+	background: rgba(255, 149, 0, 0.15) !important;
+	backdrop-filter: blur(10px);
+	border-radius: var(--radius-m);
+	margin: 2px 0;
+}
+
+.nav-files-container .nav-folder:nth-child(3) .nav-folder-title {
+	color: #ffeb3b !important; /* 黄色 */
+	background: rgba(255, 235, 59, 0.15) !important;
+	backdrop-filter: blur(10px);
+	border-radius: var(--radius-m);
+	margin: 2px 0;
+}
+
+.nav-files-container .nav-folder:nth-child(4) .nav-folder-title {
+	color: var(--h4-color) !important; /* 绿色 */
+	background: rgba(15, 235, 158, 0.15) !important;
+	backdrop-filter: blur(10px);
+	border-radius: var(--radius-m);
+	margin: 2px 0;
+}
+
+.nav-files-container .nav-folder:nth-child(5) .nav-folder-title {
+	color: var(--h3-color) !important; /* 蓝色 */
+	background: rgba(7, 126, 246, 0.15) !important;
+	backdrop-filter: blur(10px);
+	border-radius: var(--radius-m);
+	margin: 2px 0;
+}
+
+.nav-files-container .nav-folder:nth-child(6) .nav-folder-title {
+	color: var(--h2-color) !important; /* 紫色 */
+	background: rgba(200, 50, 255, 0.15) !important;
+	backdrop-filter: blur(10px);
+	border-radius: var(--radius-m);
+	margin: 2px 0;
 }
 
 .tree-item-self.is-active .tree-item-inner, 
